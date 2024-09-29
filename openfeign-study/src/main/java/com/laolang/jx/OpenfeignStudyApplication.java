@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @Slf4j
-@EnableFeignClients(basePackages = {""})
+@EnableFeignClients(basePackages = {"com.laolang.jx.remote"})
 @SpringBootApplication
 public class OpenfeignStudyApplication {
     public static void main(String[] args) {
