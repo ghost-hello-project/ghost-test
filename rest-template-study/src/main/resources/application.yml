@@ -1,0 +1,11 @@
+server:
+  port: 8092
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: rest-template-study
+
+logging:
+  config: classpath:log4j2.xml
